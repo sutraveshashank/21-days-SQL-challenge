@@ -1,8 +1,9 @@
+
 create database hospital;
 use hospital;
 
 
-
+-- 1. Patients Table
 CREATE TABLE patients (
     patient_id VARCHAR(50) PRIMARY KEY,
     name VARCHAR(100),
@@ -13,7 +14,7 @@ CREATE TABLE patients (
     satisfaction INT
 );
 
-
+-- 2. Services_Weekly Table
 CREATE TABLE services_weekly (
     week INT,
     month INT,
